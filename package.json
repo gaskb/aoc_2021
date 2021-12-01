@@ -1,0 +1,51 @@
+{
+  "name": "aoc-2021",
+  "version": "0.0.0",
+  "description": "Advent of code 2021",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "npm run clean && npm run build:dist",
+    "build:dev": "babel --watch src --out-dir dist",
+    "build:dist": "babel src -d dist",
+    "clean": "rm -rf dist",
+    "coverage": "nyc report --reporter=cobertura --reporter=lcov",
+    "lint": "eslint src",
+    "lint:fix": "eslint --fix src",
+    "start": "TZ=utc node ./dist/main.js",
+    "start:dev": "TZ=utc nodemon --signal SIGTERM --watch src --watch .env --exec babel-node ./src/main.js  --preserve-symlinks",
+    "test": "NODE_ENV=test nyc mocha  --trace-warnings --preserve-symlinks --reporter mocha-multi-reporters --reporter-options configFile=.mocha.json tests/*.test.js",
+    "ver": "echo $npm_package_version"
+  },
+  "private": true,
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/eslint-parser": "^7.13.4",
+    "@babel/node": "^7.13.0",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-env": "^7.13.5",
+    "@babel/register": "^7.13.0",
+    "eslint": "^7.20.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-promise": "^5.1.1",
+    "mocha": "^8.3.0",
+    "mocha-junit-reporter": "^2.0.0",
+    "mocha-multi-reporters": "^1.5.1",
+    "mocha-sonarqube-reporter": "^1.0.2",
+    "mocha-xunit-reporter": "^2.3.0",
+    "nyc": "^15.1.0",
+    "prettier": "^2.2.1"
+  },
+  "optionalDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "nodemonConfig": {
+    "delay": 2000
+  }
+}
