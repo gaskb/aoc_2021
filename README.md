@@ -12,3 +12,7 @@
 ## Day 3
 * check binary data
 * little more complex check binary data
+
+## Day 4
+* bingo with the squid
++ let the squid win
