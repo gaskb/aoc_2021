@@ -20,3 +20,8 @@
 ## Day 5
 * avoid Hydrothermal vents (using Seamap, Row, Coordinate)
 * more Hydrothermal vents to check
+
+
+## Day 6
+* incounter with lanternfish
+* lanternfish will fill the ocean
