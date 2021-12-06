@@ -15,4 +15,8 @@
 
 ## Day 4
 * bingo with the squid
-+ let the squid win
+* let the squid win
+
+## Day 5
+* avoid Hydrothermal vents (using Seamap, Row, Coordinate)
+* more Hydrothermal vents to check
