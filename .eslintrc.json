@@ -11,7 +11,7 @@
         "no-undef": "warn",
         "no-use-before-define": "error",
         "camelcase": "off",
-        "complexity": ["error", 8],
+        "complexity": ["error", 20],
         "prettier/prettier": [
             "error",
             {
