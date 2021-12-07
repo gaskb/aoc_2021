@@ -23,5 +23,10 @@
 
 
 ## Day 6
-* incounter with lanternfish
+* encounter with lanternfish
 * lanternfish will fill the ocean
+
+
+## Day 7
+* encounter with lanternfish (saved by crabs)
+* crabs uses more fuel
