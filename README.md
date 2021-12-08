@@ -30,3 +30,8 @@
 ## Day 7
 * encounter with whales (saved by crabs)
 * crabs uses more fuel
+
+
+## Day 8
+* broken display
+* broken display - harder
