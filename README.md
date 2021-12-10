@@ -35,3 +35,8 @@
 ## Day 8
 * broken display
 * broken display - harder
+
+
+## Day 9
+* Find low points
+* find biggest basins (still working)
