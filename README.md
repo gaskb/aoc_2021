@@ -35,3 +35,8 @@
 ## Day 8
 * broken display
 * broken display - harder
+
+
+## Day 10
+* Syntax error in navigation subsystem (find incorrect strings)
+* Syntax error in navigation subsystem (complete incomplete strings)
