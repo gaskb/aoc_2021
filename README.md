@@ -37,6 +37,6 @@
 * broken display - harder
 
 
-## Day 9
-* Find low points
-* find biggest basins (still working)
+## Day 10
+* Syntax error in navigation subsystem (find incorrect strings)
+* Syntax error in navigation subsystem (complete incomplete strings)
